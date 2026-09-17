@@ -236,6 +236,10 @@ See [PUBLISHING.md](PUBLISHING.md).
 
 MIT: https://dawn.googlesource.com/dawn/+/HEAD/LICENSE
 
+## Issues
+
+Issues are tracked in https://crbug.com/dawn.
+
 ## Thanks!
 
 Special thanks to Felix Maier who originally published a dawn plugin for node
