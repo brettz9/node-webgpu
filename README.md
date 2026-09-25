@@ -8,7 +8,7 @@ and this repo builds that plugin and publishes it on npm.
 
 ## Usage
 
-```
+```sh
 npm install --save webgpu
 ```
 
@@ -140,20 +140,20 @@ Bugs related to dawn, WebGPU should be filed in the in the
 
 ## Running the CTS
 
-```
+```sh
 npm run build
 npm run cts
 ```
 
 You can pass a query an optional cts query. For example
 
-```
+```sh
 npm run cts 'webgpu:shader,execution,expression,call,builtin,textureDimensions:*'
 ```
 
 You can also pass the path to the CTS, for example if you want to run your own tests
 
-```
+```sh
 npm run cts --cts=/Users/me/src/cts
 ```
 
